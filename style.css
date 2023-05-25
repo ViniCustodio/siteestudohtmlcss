@@ -305,3 +305,104 @@ form [type="submit"]{
     transition: transform 0.3s ease;
     transform: scale(1.1);
 }
+
+/*-----------------------HOMEPAGE----------------------------------*/
+
+.corpo3{
+    background: #CACACA;
+    margin: 0px;
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+}
+
+.container3{
+    width: 2000px;
+    height: 700px;
+    background:#16232E;
+    margin: 0px;
+}
+
+.logo{
+    position: absolute;
+    top: 25px;
+    left: 50px;
+}
+
+.menu{
+    display: flex;
+    justify-content: center;
+    align-items: top;
+    height: 100vh;
+}
+.menuname{
+    margin: 0px;
+    display: flex;
+    justify-content: space-around;
+}
+
+
+.menuname li{
+    margin: 50px;
+    color: white;
+    list-style-type: none;
+    cursor: pointer;
+    text-decoration: none;
+    transition: transform 0.3s ease;
+    display: flex;
+}
+
+.menuname li a{
+    color: white;
+    text-decoration: none;
+}
+
+.menuname li a:hover{
+    text-decoration: none;
+}
+
+.menuname li:last-child{
+    position: absolute;
+    right: 5px;
+}
+
+.menuname li:hover{
+    transform: scale(1.02);
+}
+
+.ilustration{
+    width: 450px;
+    height: 450px;
+    border-radius: 50%;
+    background: white;
+    position: absolute;
+    display: flex;
+    left: 60%;
+    top: 20%;
+}
+
+
+.ilustration img{
+    background: url(ilustration.jpg);
+    position: absolute;
+    top: 103px;
+    left: 60px;
+    display: flex;
+}
+
+.descricao h1{
+    position: absolute;
+    display: flex;
+    top: 260px;
+    left: 200px;
+    font-size: 50px;
+    color: white;
+}
+
+.paragrafo{
+    position: absolute;
+    top: 380px;
+    left: 200px;
+    color: #CACACA;
+    font-size: 18px;
+    display: flex;
+}
